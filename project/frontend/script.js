@@ -21,7 +21,7 @@ form.addEventListener("submit", async (event) => {
         return;
     }
     try {
-        const response = await fetch("http://localhost:5000/feedback", {
+        const response = await fetch("/feedback", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

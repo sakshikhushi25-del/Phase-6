@@ -23,6 +23,8 @@ mongoose.connect(process.env.MONGODB_URI)
     console.log("connection fail", error.message);
 })
 
-app.listen(5000, () => {
-    console.log(`Server is running on http://localhost:5000`);
-})
+// app.listen(5000, () => {
+//     console.log(`Server is running on http://localhost:5000`);
+// })
+
+export default app;
