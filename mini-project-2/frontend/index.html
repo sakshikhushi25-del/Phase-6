@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Progress Tracker</h1>
+        <p class="description">
+            Add and track the progress of students in their courses.
+        </p>
+        <a href="data.html" id="data-page">View All Data</a>
+        <form id="student-form">
+            <div class="form-group">
+                <label for="name">Student Name :</label>
+                <input type="text" placeholder="Enter name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Course Name : </label>
+                <input type="text" placeholder="Enter course" id="course" required>
+            </div>
+            <div class="form-group">
+                <label for="completion">Completion : </label>
+                <input type="number" placeholder="enter completion percentage" id="completion" required>
+            </div>
+
+            <button type="submit">Add Progress</button>
+
+            <p id="message"></p>
+
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
